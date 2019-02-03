@@ -1,0 +1,40 @@
+body {
+	min-height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+
+	text-align: center;
+}
+
+.hexCode {
+	text-transform: capitalize;
+	font-size: 35px;
+}
+
+.hex {
+	font-size: 40px;
+}
+
+.btn {
+	margin: auto;
+	padding: 12px;
+	font-size: 20px;
+	font-family: 'Lato';
+	font-weight: bold;
+	color: #1B1D1B;
+	background-color: #34F88D;
+	border: 2px solid #fefefe;
+	border-radius: 30px;
+	outline: none;
+	cursor: pointer;
+	text-transform: capitalize; 
+}
+
+.btn:hover {
+	background-color: #9DF08B;
+    color: #0B0D0A;
+}
